@@ -19,3 +19,6 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+-keeppackagenames okhttp3.internal.publicsuffix.*
+#-adaptresourcefilenames okhttp3/internal/publicsuffix/PublicSuffixDatabase.gz
